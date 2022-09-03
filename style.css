@@ -1,0 +1,154 @@
+
+body{
+    margin: 0px;
+    margin-bottom: 50%;
+    overflow: scroll;
+}
+header {
+    background-color: #212529;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+  }
+
+.navigation{
+    padding-top: 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+}
+
+.navigation a{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline;
+}
+.navigation .fixed{
+    font-size: 20px;
+    padding-left: 12px;
+    flex: 100%;
+    margin-top: 1px;
+}
+.navigation .link{
+    color: gray;
+    margin-top: 5px;
+}
+.navigation .home{
+    margin-top: 5px;
+}
+.navigation .searching{
+    float: right;
+    padding-right: 10px;
+}
+.navigation input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+  }
+.navigation .searching button[type=submit]{
+    float: right;
+    padding: 6px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: green;
+    font-size: 15px;
+    background-color: transparent;
+    border-color: green;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    width: 80px;
+    height: 40px;
+}
+
+nav {
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 1px;
+}
+
+main h2 {
+    color: #212529;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    margin-top: 0%;
+    padding-top: 5%;
+    margin-bottom: 10px;
+    text-align: right-center;
+    padding-left: 5%;
+  }
+  main p {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding-bottom: 7%;
+    text-align: right-center;
+    padding-left: 5%;
+    margin-right: 35%;
+  }
+  .example{
+    background-color: rgb(243, 243, 243);
+    margin-top: 100px;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding-top: 0px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    flex: auto;
+}
+img{
+    width: 0px;
+}
+.navmenu {
+    background-color: transparent;
+    border-color: transparent;
+ }
+
+
+  @media only screen and (max-width: 721px) {
+
+    body {
+        background-color: white;
+    }
+    .navigation .link {
+        display: none;
+    }
+    .navigation .home {
+        display: none;
+    }
+    .navigation .fixed {
+        font-size: 20px;
+    }
+    .navigation .searching button[type=submit] {
+        display: none;
+    }
+
+    .navigation input[type=text] {
+        display: none;
+    }
+
+    img {
+        width: 30px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #747779;
+        cursor: pointer;
+        border-width: 1px;
+        border-style: solid;
+    }
+}
